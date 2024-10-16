@@ -1,0 +1,181 @@
+*{
+   background-color:rgb(245, 222, 190) ;
+}
+
+.title{
+   font-size: 25px;
+   font-family: "Allura", cursive;
+   font-weight: 400;
+   display: inline-block;
+   left:32%;
+   position:relative;
+}
+
+.title h1{
+   margin: 0px;
+}
+
+.heading{
+   font-family: "Nanum Myeongjo", serif;
+   font-weight: 1000;
+   display: inline-block;
+   text-align: center;
+   float: left;
+   
+}
+
+.heading p{
+   margin: 0px;
+   
+}
+
+.footer{
+   font-size: 12px;
+}
+
+.add{
+   display: inline-block;
+   font-family: "Nanum Myeongjo", serif;
+   font-weight: 1000;
+   float: right;
+}
+
+.add p{
+   margin: 0;
+}
+
+.title .contact{
+   text-align: center;
+   font-family: "Nanum Myeongjo", serif;
+   font-weight: 1000;
+   font-size: 15px;
+
+}
+
+hr{
+   border: none;
+   background-color: black;
+   height: 0.1px;
+}
+
+.tech{
+   width: 50%;
+   display: inline-block;
+   float: left;
+   margin-right: 20px;
+}
+
+.tech .techimg{
+   height: 200px;
+   width: 300px;
+   float: left;
+   margin-right: 20px;
+   object-fit: cover;
+}
+
+.tech .h2title{
+   font-family:"Rowdies", sans-serif;
+   font-size: 40px;
+   font-weight: 400px;
+}
+
+.content{
+   font-size: 15px;
+   
+   
+}
+
+span{
+   font-family:"Rowdies", sans-serif ;
+   font-size: 30px;
+}
+
+.second{
+   width: 25%;
+   display: inline-block;
+   float: left;
+   margin-right: 20px;
+}
+
+.second .title2{ 
+   font-family: "Rowdies", sans-serif ;
+   font-weight: 800;
+   font-size: 30px;
+
+
+}
+
+.designimg{
+   height: 200px;
+   width: 300px;
+   
+   
+}
+
+.third{
+   width: 25%;
+   display: inline-block;
+   float: left;
+}
+
+.thrid .title3{
+   font-family: "Rowdies", sans-serif ;
+   font-weight: 800;
+   font-size: 30px;
+
+}
+
+.titlefancy{
+   font-family: "Rowdies", sans-serif;
+   margin-top: 0;
+
+}
+
+.special{
+   font-size: 20px;
+}
+
+li{
+   font-size: 15px;
+}
+@media (max-width:680px){
+   .heading{
+      text-align: left;
+      font-size:10px; 
+    
+   }
+
+   .title{
+      text-align: center;
+      font-size: 15px;
+   }
+
+   .title .contact{
+      text-align: center;
+      font-size:13px;
+   }
+
+   .add{ 
+      text-align: right;
+      font-size: 10px;
+   }
+
+   .tech{
+      display: block;
+      width: 100%;
+      text-align: justify;
+      margin-bottom: 30px;
+   }
+
+   .tech .techimg{
+      object-fit: cover;
+      display: inline;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .tech .h2title{
+      font-size: 30px;
+      text-align: justify;
+   }
+}
